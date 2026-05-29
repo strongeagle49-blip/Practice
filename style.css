@@ -1,10 +1,44 @@
-header {background-color: pink;}
-header h1 {color: red;}
-footer {background-color: pink;}
- body {background-image: url("./images/BG.jpg")}
-ul {padding-left: 0;}
-body {background-image: url("./images/BG.jpg")}
-p {font-size:30px;}
-p.normal {font-weight: bold;}
-h1 {font-size: 2.5em;}
-div {line-height: 1.5;}
+header {
+    background-color: pink;
+}
+
+header h1 {
+    color: red;
+}
+
+footer {
+    background-color: pink;
+}
+
+body {
+    background-image: url("./images/BG.jpg")
+}
+
+ul {
+    padding-left: 0;
+}
+
+body {
+    background-image: url("./images/BG.jpg")
+}
+
+p {
+    font-size:30px;
+}
+
+p.normal {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+div {
+    line-height: 1.5;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
